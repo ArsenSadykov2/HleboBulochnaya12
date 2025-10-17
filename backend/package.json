@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.ts",
+    "seed": "ts-node fixtures.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,7 +15,9 @@
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
     "express": "^5.1.0",
+    "google-auth-library": "^10.4.1",
     "mongoose": "^8.19.1",
     "multer": "^2.0.2"
   },
